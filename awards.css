@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap");
+
+.award-container {
+  font-family: roboto;
+  background-color: lightgrey;
+  padding: 10px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.award-container:nth-child(even) {
+  background-color: grey;
+}
+
+.item-container {
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+  margin: 0px 5px;
+}
+
+.cont1 {
+  width: 450px;
+}
+
+.cont3 {
+  flex: 1;
+}
+
+.ind-header {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.ind-cont {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ind-cont:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-top: 4px solid darkgrey;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.indicator {
+  font-family: Titillium, sans-serif;
+  display: inline-block;
+  width: 40px;
+  height: 0;
+  font-size: 40px;
+  text-align: center;
+  line-height: 0;
+  padding: 20px 0;
+  border: 2px solid grey;
+  border-radius: 50%;
+  color: grey;
+  background-color: white;
+  box-shadow: 3px 3px 5px lightgrey;
+  z-index: 1;
+}
+
+.indicator:nth-child(1) {
+  background-color: #5b9cd6;
+  color: white;
+}
+
+.indicator:nth-child(2) {
+  background-color: #ef8a44;
+  color: white;
+}
+.indicator:nth-child(3) {
+  background-color: #7db558;
+  color: white;
+}
+
+.indicator:nth-child(4) {
+  background-color: #7e44aa;
+  color: white;
+}
+
+.indicator:nth-child(5) {
+  background-color: #ffc519;
+  color: white;
+}
+
+.indicator:nth-child(6) {
+  background-color: #ff4819;
+  color: white;
+}
+
+.indicator:nth-child(7) {
+  background-color: #ded47f;
+  color: white;
+}
+
+.indicator:nth-child(8) {
+  background-color: #47ef84;
+  color: white;
+}
+
+.cg {
+  background: white !important;
+  color: grey !important;
+}
